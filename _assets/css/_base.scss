@@ -11,6 +11,8 @@ body {
   background: url(asset_path('pieces')) 101% -1.5% no-repeat;
   // background-size: 40%;
 
+  padding-top: 3rem;
+
   @include min-screen(768) {
     // background-position: 101% -1.5%;
     // background-size: 20%;
@@ -67,9 +69,6 @@ dl dt {
 dl dd {
   margin-left: 200px;
   margin-bottom: 1em
-}
-li {
-  margin: 0.4em 0;
 }
 li li {
   margin: 0;
@@ -208,4 +207,8 @@ body.about .container {
   height: 1px;
   width: 100%;
   margin: 0 0 1.85rem 0;
+}
+
+.home_intro {
+  margin: 12em 0;
 }

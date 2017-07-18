@@ -31,11 +31,11 @@ $(document).ready(function() {
   });
 
   /* Stick header */
-  if ($('.header').length > 0) {
-    var sticky = new Waypoint.Sticky({
-      element: $('.header')[0]
-    });
-  }
+  // if ($('.header').length > 0) {
+  //   var sticky = new Waypoint.Sticky({
+  //     element: $('.header')[0]
+  //   });
+  // }
 
   if ($('.toc').length > 0) {
     var sticky = new Waypoint.Sticky({

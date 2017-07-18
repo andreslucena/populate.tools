@@ -1,12 +1,21 @@
 ---
 layout: default
 description: t meta_description.home
+class: about
 ---
 
-{% include hero.html %}
+<!-- {% include hero.html %} -->
 
 <main>
+
   {% include header.html %}
+
+  <div class="container">
+    <div class="home_intro">
+      {% translate_file _includes/about_start.html %}
+    </div>
+  </div>
+
 
   <div class="container">
 

@@ -31,6 +31,7 @@
 }
 .header-list {
   display: inline-block;
+  margin: auto;
   list-style: none;
   margin-left: 0;
   padding-left: 0;
@@ -38,9 +39,7 @@
 .header-item {
   vertical-align: 0.7rem;
   display: inline-block;
-}
-.header-item {
-  padding-right: 2rem;
+  padding: .15rem 1rem .15rem;
 }
 .header-link {
   color: $link;
@@ -52,6 +51,9 @@
 .header-subsection {
   color: $gray;
   font-weight: 300;
+}
+.language_selector {
+  padding: .15rem .15rem;
 }
 
 .newsletter {
@@ -164,7 +166,7 @@
   position: fixed;
   top: 0;
   box-shadow: 0 2px 4px rgba(0,0,0,.2);
-  padding: 1rem 0;
+  padding: 1.65rem 0 1rem 0;
 
   .wrapper {
     max-width: 1440px;
